@@ -1,0 +1,75 @@
+.favorites-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .favorites-container h1 {
+    color: #333;
+  }
+  
+  .favorites-container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .favorites-container label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .favorites-container select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .favorites-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .favorites-list .p-4 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .favorites-list h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .favorites-list h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .favorites-list p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .favorites-list .audio-container {
+    margin-bottom: 0.5rem;
+  }
+  
+  .remove-favorite-btn {
+    background-color: #ff4d4f;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-favorite-btn:hover {
+    background-color: #ff7875;
+  }
+  
